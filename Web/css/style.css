@@ -1,0 +1,158 @@
+/* ------ GENERAL STYLING ------ */
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #222;
+}
+
+section, footer {
+    padding: 100px 0;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.6em;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+a {
+    color: inherit  
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox.space-between {
+    justify-content: space-between;
+}
+
+.grey-section {
+    background: #f7f7f7;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/* ------ NAV STYLING ------ */
+
+.menu {
+    padding: 20px;
+    background: white;
+    position: fixed;
+    z-index: 5000;
+    width: 100%;
+}
+
+.menu img {
+    width: 130px;
+}
+
+.menu nav {
+    display: none;
+}
+
+
+
+
+/* ----- HERO SECTION ----- */
+
+.hero {
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+
+    /*
+    background-color: white;
+    background-image: url('../img/Fresh-Sea-Water-Hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    */
+    background: #02006b url('../img/Fresh-Sea-Water-Hero.jpg') no-repeat center / cover;
+}
+
+.hero .button {
+    margin: 25px auto;
+}
+
+
+/* ----- gUARANTEE SECTION ----- */
+
+.guarantee {
+    text-align: center;
+}
+
+.guarantee hr {
+    margin: 80px;
+}
+
+
+/* ---- PROCESS SECIONT ---- */
+
+.process {
+    background: url('../img/t6.jpg') no-repeat left / cover;
+    padding-bottom: 150px;
+}
+
+
+/* ---- ASIDE SECTION ---- */
+
+.aside {
+    background: #222;
+    color: white;
+    padding: 80px 0;
+}
+
+.aside .button {
+    width: auto;
+}
+
+
+/* ---- FOOTER SECTION ---- */
+
+footer {
+    text-align: center;
+}
+
+footer hr {
+    margin: 30px;
+    opacity: .5;
+}
+
+footer img {
+    width: 200px;
+}
+
+
+
+/* ---- COMPONENT BUTTON ---- */
+
+.button {
+    border: 1px solid #333;
+    color: #333;
+    display: block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: .9em;
+    letter-spacing: 1px;
+    width: 220px;
+    text-align: center;
+    margin: 28px 0;
+}
+
+.button.white {
+    border: 1px solid #fff;
+    color: #fff;
+}
